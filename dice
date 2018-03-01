@@ -1,0 +1,70 @@
+class roller
+{
+  private:
+  //Positive results
+  int sux;
+  int adv;
+  int tri;
+  
+ //Negative results
+  int fai;
+  int thr;
+  int des;
+  
+  //Force results
+  int light;
+  int dark;
+  
+  public:
+  int prof(int dice);
+  int abil(int dice);
+  int boo(int dice);
+  
+  int diff(int dice);
+  int chal(int dice);
+  int setb(int dice);
+  
+  int forc(int dice);
+  
+  void compile;
+}
+
+int prof(int dice)
+{
+  
+}
+
+int abil(int dice)
+{
+}
+
+int boo(int dice)
+{
+}
+
+int diff(int dice)
+{
+}
+
+int chal(int dice)
+{
+}
+
+int setb(int dice)
+{
+}
+
+int forc(int dice)
+{
+}
+
+void compile()
+{
+  int sufa = sux + fai;
+  int adth = adv + thr;
+  
+  cout << "Your Successes: << sux << endl;
+  cout << fai << endl;
+  cout << adv << endl;
+  
+}
