@@ -1,0 +1,59 @@
+class Node 
+{
+public:
+char data;
+Node *link;
+}
+class postfix
+{
+  private:
+  Node *top;//Pointer to the stack's top
+  
+  public:
+  postfix()
+  {
+    top = NULL;
+  }
+  ~postfix()
+  {
+    empty();
+  }
+  bool isEmpty()
+  {
+    return top == NULL;
+  }
+  char showTop
+  {
+    if (isEmpty())
+    {
+     throw myException("Stack underflow");
+    }
+    return head->data;
+  }
+  void push(char input)
+  {
+    Node *node = new Node;//Create new node and have it contain the input
+    node->data = input;
+    
+    node->link = top;//Link it to the current top, then make it the new top
+    top = node;
+  }
+  void pop()
+  {
+  if (isEmpty())
+  {
+    throw myException("There is nothing to pop.");
+  }
+  else
+  {
+    Node *node = top;
+    node = node->link;
+    delete 
+  }
+    
+  }
+  void empty()
+  {
+    
+  }
+}
